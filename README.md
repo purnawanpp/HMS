@@ -22,3 +22,8 @@ Upload file namely solvated.prmtop and solvated.inpcrd on Google Colab.
 18. *export GMX_MAXCONSTRWARN=-1*
 19. *gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p gromacs.top -o md.tpr -maxwarn 1*
 20. *gmx mdrun -v -s md.tpr -deffnm md &*
+
+# Reference
+1. https://pubs.acs.org/doi/10.1021/ct5010406
+2. https://ambermd.org/doc12/Amber22.pdf
+3. https://parmed.github.io/ParmEd/html/index.html
