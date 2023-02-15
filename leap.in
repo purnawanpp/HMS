@@ -7,7 +7,7 @@ source leaprc.gaff
 ###Load TIP3P (water) force field                                               
 source leaprc.water.opc 
 ####Load Ions frcmod for the tip3p model                                        
-loadamberparams frcmod.ionsjc_tip3p
+loadamberparams frcmod.ionslm_126_opc
 ###Needed so we can use igb=8 model                                             
 set default PBradii mbondi3
 
