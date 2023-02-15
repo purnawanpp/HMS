@@ -12,7 +12,7 @@ This tutorial using AmberTools Version 22 and GROMACS version 2022.2
 9. Run google colab by clicking the following link: https://github.com/purnawanpp/HMS/blob/main/HMP.ipynb
 Upload file namely solvated.prmtop and solvated.inpcrd on Google Colab.
 10. Run google colab and dont forget to download file namely gromacs.gro dan gromacs.top. Move the two downloaded files to your work folder
-11. Running this command to simulation your protein and ligand using GROMACS
+11. Running this command to simulation your protein and ligand using GROMACS:
 12. *gmx grompp -f min.mdp -c gromacs.gro -p gromacs.top -o em.tpr -maxwarn 1*
 13. *gmx mdrun -v -deffnm em*
 14. *gmx grompp -f nvt.mdp -c em.gro -r em.gro -p gromacs.top -o nvt.tpr -maxwarn 2*
