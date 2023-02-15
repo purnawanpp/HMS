@@ -37,8 +37,8 @@ of the License, or (at your option) any later version.
 GROMACS:      gmx mdrun, version 2022.2
 Executable:   /home/elite/Programs/gromacs/build/bin/gmx
 Data prefix:  /home/elite/Programs/gromacs (source tree)
-Working dir:  /home/elite/Documents/latihan/HMS/19-OPC
-Process ID:   8816
+Working dir:  /home/elite/Documents/latihan/HMS/19-OPC2
+Process ID:   39286
 Command line:
   gmx mdrun -v -deffnm em
 
@@ -153,7 +153,7 @@ Input Parameters:
    comm-mode                      = Linear
    nstcomm                        = 100
    bd-fric                        = 0
-   ld-seed                        = 1874780148
+   ld-seed                        = 1245683695
    emtol                          = 1000
    emstep                         = 0.01
    niter                          = 20
@@ -361,7 +361,7 @@ Removing pbc first time
 
 Note that activating steepest-descent energy minimization via the integrator .mdp option and the command gmx mdrun may be available in a different form in a future version of GROMACS, e.g. gmx minimize and an .mdp option.
 Initiating Steepest Descents
-Started Steepest Descents on rank 0 Wed Feb 15 09:13:10 2023
+Started Steepest Descents on rank 0 Wed Feb 15 12:58:26 2023
 
 
 Steepest Descents:
@@ -374,7 +374,7 @@ Steepest Descents:
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
     2.98725e+02    6.07107e+02    2.19702e+03    3.05196e+00    4.98682e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.50905e+03    2.60370e+04    6.61410e+03   -4.50531e+04    3.27360e+03
+    2.50905e+03    2.60370e+04    6.61410e+03   -4.50530e+04    3.27360e+03
       Potential Pressure (bar)
    -3.01472e+03    1.40838e+04
 
@@ -387,7 +387,7 @@ Steepest Descents:
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.50972e+03    2.60370e+04   -1.25818e+03   -4.50506e+04    3.27408e+03
       Potential Pressure (bar)
-   -1.08783e+04    6.32099e+03
+   -1.08784e+04    6.32099e+03
 
            Step           Time
               2        2.00000
@@ -398,7 +398,7 @@ Steepest Descents:
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.50756e+03    2.60337e+04   -2.74807e+03   -4.50530e+04    3.27116e+03
       Potential Pressure (bar)
-   -1.23812e+04    4.87435e+03
+   -1.23811e+04    4.87435e+03
 
            Step           Time
               3        3.00000
@@ -430,7 +430,7 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    1.88876e+02    5.81188e+02    2.18717e+03    3.45293e+01    4.75845e+02
+    1.88877e+02    5.81188e+02    2.18717e+03    3.45293e+01    4.75845e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.39251e+03    2.58885e+04   -3.49530e+03   -4.50960e+04    3.16126e+03
       Potential Pressure (bar)
@@ -444,7 +444,7 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.49335e+02    5.96952e+02    2.18539e+03    3.66171e+01    4.75513e+02
+    2.49335e+02    5.96951e+02    2.18539e+03    3.66171e+01    4.75512e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.35908e+03    2.58551e+04   -3.54987e+03   -4.51420e+04    3.12983e+03
       Potential Pressure (bar)
@@ -455,7 +455,7 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    1.83847e+02    5.89786e+02    2.18334e+03    3.84156e+01    4.74078e+02
+    1.83847e+02    5.89786e+02    2.18334e+03    3.84157e+01    4.74078e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.35080e+03    2.58412e+04   -3.57177e+03   -4.51033e+04    3.13707e+03
       Potential Pressure (bar)
@@ -495,7 +495,7 @@ Steepest Descents:
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.30395e+03    2.57939e+04   -3.64329e+03   -4.51371e+04    3.10201e+03
       Potential Pressure (bar)
-   -1.40808e+04    3.37148e+03
+   -1.40808e+04    3.37149e+03
 
            Step           Time
              14       14.00000
@@ -513,7 +513,7 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.52327e+02    6.41502e+02    2.17707e+03    4.62455e+01    4.70652e+02
+    2.52327e+02    6.41502e+02    2.17707e+03    4.62454e+01    4.70652e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.25862e+03    2.57470e+04   -3.70862e+03   -4.51563e+04    3.07281e+03
       Potential Pressure (bar)
@@ -527,11 +527,11 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    1.86476e+02    6.29419e+02    2.17625e+03    4.67463e+01    4.69995e+02
+    1.86476e+02    6.29419e+02    2.17625e+03    4.67462e+01    4.69996e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.25879e+03    2.57418e+04   -3.71897e+03   -4.51293e+04    3.07700e+03
       Potential Pressure (bar)
-   -1.42617e+04    3.05046e+03
+   -1.42617e+04    3.05047e+03
 
            Step           Time
              18       18.00000
@@ -545,18 +545,18 @@ Steepest Descents:
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.24402e+03    2.57300e+04   -3.73301e+03   -4.51494e+04    3.06542e+03
       Potential Pressure (bar)
-   -1.42941e+04    2.91868e+03
+   -1.42941e+04    2.91867e+03
 
            Step           Time
              20       20.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    1.96059e+02    6.40149e+02    2.17476e+03    4.82131e+01    4.69022e+02
+    1.96058e+02    6.40149e+02    2.17476e+03    4.82131e+01    4.69022e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.23982e+03    2.57220e+04   -3.74672e+03   -4.51308e+04    3.06531e+03
       Potential Pressure (bar)
-   -1.43221e+04    2.91695e+03
+   -1.43222e+04    2.91695e+03
 
            Step           Time
              21       21.00000
@@ -576,7 +576,7 @@ Steepest Descents:
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
     2.11393e+02    6.50068e+02    2.17348e+03    4.94418e+01    4.68125e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.22285e+03    2.57049e+04   -3.77015e+03   -4.51337e+04    3.05445e+03
+    2.22285e+03    2.57049e+04   -3.77015e+03   -4.51337e+04    3.05446e+03
       Potential Pressure (bar)
    -1.43691e+04    2.79655e+03
 
@@ -596,22 +596,22 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.36728e+02    6.59849e+02    2.17232e+03    5.05158e+01    4.67267e+02
+    2.36728e+02    6.59849e+02    2.17232e+03    5.05157e+01    4.67267e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.20716e+03    2.56896e+04   -3.79086e+03   -4.51374e+04    3.04420e+03
       Potential Pressure (bar)
-   -1.44007e+04    2.68365e+03
+   -1.44007e+04    2.68366e+03
 
            Step           Time
              25       25.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.44385e+02    6.73924e+02    2.17207e+03    5.09897e+01    4.67182e+02
+    2.44386e+02    6.73924e+02    2.17207e+03    5.09897e+01    4.67182e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.19657e+03    2.56823e+04   -3.79602e+03   -4.51570e+04    3.03507e+03
+    2.19657e+03    2.56823e+04   -3.79601e+03   -4.51570e+04    3.03507e+03
       Potential Pressure (bar)
-   -1.44305e+04    2.57882e+03
+   -1.44305e+04    2.57881e+03
 
            Step           Time
              26       26.00000
@@ -621,33 +621,33 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    1.95860e+02    6.63404e+02    2.17162e+03    5.12224e+01    4.66798e+02
+    1.95859e+02    6.63404e+02    2.17162e+03    5.12223e+01    4.66798e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.19440e+03    2.56789e+04   -3.80320e+03   -4.51491e+04    3.03460e+03
       Potential Pressure (bar)
-   -1.44954e+04    2.58946e+03
+   -1.44954e+04    2.58947e+03
 
            Step           Time
              28       28.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.40856e+02    6.84821e+02    2.17032e+03    5.25011e+01    4.65750e+02
+    2.40859e+02    6.84820e+02    2.17032e+03    5.25012e+01    4.65750e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.17535e+03    2.56609e+04   -3.82347e+03   -4.51569e+04    3.02090e+03
+    2.17534e+03    2.56609e+04   -3.82347e+03   -4.51569e+04    3.02090e+03
       Potential Pressure (bar)
-   -1.45090e+04    2.43781e+03
+   -1.45090e+04    2.43778e+03
 
            Step           Time
              29       29.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.10831e+02    6.76110e+02    2.16989e+03    5.27406e+01    4.65384e+02
+    2.10830e+02    6.76110e+02    2.16989e+03    5.27406e+01    4.65385e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.17131e+03    2.56567e+04   -3.83198e+03   -4.51539e+04    3.01896e+03
       Potential Pressure (bar)
-   -1.45640e+04    2.42744e+03
+   -1.45640e+04    2.42745e+03
 
            Step           Time
              30       30.00000
@@ -657,9 +657,9 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.00204e+02    6.81906e+02    2.16951e+03    5.30297e+01    4.65126e+02
+    2.00205e+02    6.81906e+02    2.16951e+03    5.30295e+01    4.65126e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.16670e+03    2.56525e+04   -3.83567e+03   -4.51564e+04    3.01516e+03
+    2.16671e+03    2.56525e+04   -3.83567e+03   -4.51564e+04    3.01516e+03
       Potential Pressure (bar)
    -1.45880e+04    2.39285e+03
 
@@ -668,22 +668,22 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.26288e+02    6.83463e+02    2.16882e+03    5.35117e+01    4.64545e+02
+    2.26287e+02    6.83462e+02    2.16882e+03    5.35115e+01    4.64545e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.15824e+03    2.56444e+04   -3.84763e+03   -4.51572e+04    3.00981e+03
+    2.15824e+03    2.56444e+04   -3.84763e+03   -4.51571e+04    3.00981e+03
       Potential Pressure (bar)
-   -1.45957e+04    2.33636e+03
+   -1.45957e+04    2.33637e+03
 
            Step           Time
              33       33.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.06436e+02    6.90216e+02    2.16842e+03    5.37770e+01    4.64286e+02
+    2.06437e+02    6.90216e+02    2.16842e+03    5.37767e+01    4.64286e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.15417e+03    2.56407e+04   -3.85001e+03   -4.51595e+04    3.00605e+03
       Potential Pressure (bar)
-   -1.46255e+04    2.30554e+03
+   -1.46255e+04    2.30555e+03
 
            Step           Time
              34       34.00000
@@ -693,7 +693,7 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.02644e+02    6.87908e+02    2.16810e+03    5.39831e+01    4.64008e+02
+    2.02643e+02    6.87908e+02    2.16810e+03    5.39829e+01    4.64008e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.15010e+03    2.56369e+04   -3.85615e+03   -4.51598e+04    3.00355e+03
       Potential Pressure (bar)
@@ -704,20 +704,20 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.11638e+02    6.97806e+02    2.16734e+03    5.44642e+01    4.63434e+02
+    2.11640e+02    6.97806e+02    2.16734e+03    5.44643e+01    4.63434e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.14213e+03    2.56292e+04   -3.86353e+03   -4.51624e+04    2.99707e+03
       Potential Pressure (bar)
-   -1.46628e+04    2.22240e+03
+   -1.46628e+04    2.22239e+03
 
            Step           Time
              37       37.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.13236e+02    6.94658e+02    2.16698e+03    5.46840e+01    4.63115e+02
+    2.13235e+02    6.94658e+02    2.16698e+03    5.46840e+01    4.63115e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.13738e+03    2.56250e+04   -3.87079e+03   -4.51631e+04    2.99427e+03
+    2.13738e+03    2.56250e+04   -3.87079e+03   -4.51631e+04    2.99426e+03
       Potential Pressure (bar)
    -1.46847e+04    2.19444e+03
 
@@ -726,7 +726,7 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.21862e+02    7.05278e+02    2.16637e+03    5.50213e+01    4.62683e+02
+    2.21863e+02    7.05279e+02    2.16637e+03    5.50211e+01    4.62683e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.13198e+03    2.56198e+04   -3.87449e+03   -4.51651e+04    2.98928e+03
       Potential Pressure (bar)
@@ -737,11 +737,11 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.33528e+02    7.00886e+02    2.16602e+03    5.52424e+01    4.62334e+02
+    2.33526e+02    7.00885e+02    2.16602e+03    5.52425e+01    4.62335e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.12669e+03    2.56149e+04   -3.88296e+03   -4.51661e+04    2.98639e+03
+    2.12669e+03    2.56149e+04   -3.88296e+03   -4.51661e+04    2.98640e+03
       Potential Pressure (bar)
-   -1.47030e+04    2.11895e+03
+   -1.47030e+04    2.11896e+03
 
            Step           Time
              40       40.00000
@@ -751,7 +751,7 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.00598e+02    7.03813e+02    2.16572e+03    5.53823e+01    4.62146e+02
+    2.00598e+02    7.03813e+02    2.16572e+03    5.53826e+01    4.62146e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.12459e+03    2.56129e+04   -3.88384e+03   -4.51668e+04    2.98400e+03
       Potential Pressure (bar)
@@ -762,22 +762,22 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.60448e+02    7.14652e+02    2.16402e+03    5.64076e+01    4.60622e+02
+    2.60446e+02    7.14652e+02    2.16402e+03    5.64078e+01    4.60622e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.10446e+03    2.55940e+04   -3.90690e+03   -4.51723e+04    2.96916e+03
       Potential Pressure (bar)
-   -1.47555e+04    1.96154e+03
+   -1.47555e+04    1.96156e+03
 
            Step           Time
              43       43.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.04652e+02    7.17379e+02    2.16368e+03    5.65327e+01    4.60431e+02
+    2.04654e+02    7.17381e+02    2.16368e+03    5.65332e+01    4.60431e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.10277e+03    2.55921e+04   -3.90667e+03   -4.51729e+04    2.96658e+03
+    2.10276e+03    2.55921e+04   -3.90667e+03   -4.51729e+04    2.96658e+03
       Potential Pressure (bar)
-   -1.48155e+04    1.95556e+03
+   -1.48154e+04    1.95555e+03
 
            Step           Time
              44       44.00000
@@ -787,22 +787,22 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.22616e+02    7.18412e+02    2.16308e+03    5.68152e+01    4.59937e+02
+    2.22614e+02    7.18412e+02    2.16308e+03    5.68152e+01    4.59937e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.09618e+03    2.55860e+04   -3.91485e+03   -4.51748e+04    2.96185e+03
       Potential Pressure (bar)
-   -1.48248e+04    1.91125e+03
+   -1.48248e+04    1.91123e+03
 
            Step           Time
              46       46.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.08176e+02    7.23457e+02    2.16269e+03    5.69649e+01    4.59685e+02
+    2.08177e+02    7.23458e+02    2.16269e+03    5.69646e+01    4.59685e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.09368e+03    2.55834e+04   -3.91588e+03   -4.51758e+04    2.95887e+03
       Potential Pressure (bar)
-   -1.48447e+04    1.89363e+03
+   -1.48447e+04    1.89362e+03
 
            Step           Time
              47       47.00000
@@ -812,7 +812,7 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.08754e+02    7.22231e+02    2.16241e+03    5.70908e+01    4.59447e+02
+    2.08752e+02    7.22233e+02    2.16241e+03    5.70908e+01    4.59447e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.09046e+03    2.55804e+04   -3.92017e+03   -4.51767e+04    2.95666e+03
       Potential Pressure (bar)
@@ -823,18 +823,18 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.11382e+02    7.28802e+02    2.16177e+03    5.73446e+01    4.58994e+02
+    2.11384e+02    7.28802e+02    2.16177e+03    5.73445e+01    4.58995e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.08547e+03    2.55754e+04   -3.92407e+03   -4.51785e+04    2.95173e+03
       Potential Pressure (bar)
-   -1.48716e+04    1.83706e+03
+   -1.48716e+04    1.83707e+03
 
            Step           Time
              50       50.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.16098e+02    7.27051e+02    2.16145e+03    5.74841e+01    4.58717e+02
+    2.16096e+02    7.27052e+02    2.16145e+03    5.74843e+01    4.58717e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.08170e+03    2.55719e+04   -3.92925e+03   -4.51795e+04    2.94924e+03
       Potential Pressure (bar)
@@ -845,33 +845,33 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.17102e+02    7.34190e+02    2.16092e+03    5.76772e+01    4.58370e+02
+    2.17104e+02    7.34190e+02    2.16092e+03    5.76772e+01    4.58370e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.07819e+03    2.55683e+04   -3.93113e+03   -4.51810e+04    2.94519e+03
       Potential Pressure (bar)
-   -1.48922e+04    1.78592e+03
+   -1.48922e+04    1.78593e+03
 
            Step           Time
              52       52.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.29600e+02    7.31649e+02    2.16060e+03    5.78205e+01    4.58071e+02
+    2.29596e+02    7.31650e+02    2.16060e+03    5.78200e+01    4.58071e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.07398e+03    2.55643e+04   -3.93722e+03   -4.51820e+04    2.94264e+03
+    2.07398e+03    2.55643e+04   -3.93722e+03   -4.51820e+04    2.94265e+03
       Potential Pressure (bar)
-   -1.49005e+04    1.75866e+03
+   -1.49006e+04    1.75866e+03
 
            Step           Time
              53       53.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.28318e+02    7.40317e+02    2.16009e+03    5.79923e+01    4.57767e+02
+    2.28319e+02    7.40317e+02    2.16009e+03    5.79915e+01    4.57767e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.07126e+03    2.55613e+04   -3.93760e+03   -4.51834e+04    2.93877e+03
       Potential Pressure (bar)
-   -1.49052e+04    1.73584e+03
+   -1.49052e+04    1.73585e+03
 
            Step           Time
              54       54.00000
@@ -881,33 +881,33 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.09370e+02    7.35474e+02    2.15993e+03    5.80602e+01    4.57614e+02
+    2.09371e+02    7.35473e+02    2.15993e+03    5.80597e+01    4.57615e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.06894e+03    2.55592e+04   -3.94140e+03   -4.51839e+04    2.93749e+03
       Potential Pressure (bar)
-   -1.49392e+04    1.72632e+03
+   -1.49393e+04    1.72633e+03
 
            Step           Time
              56       56.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.36001e+02    7.50962e+02    2.15820e+03    5.87153e+01    4.56380e+02
+    2.35992e+02    7.50966e+02    2.15820e+03    5.87146e+01    4.56381e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.05508e+03    2.55450e+04   -3.95298e+03   -4.51892e+04    2.92364e+03
       Potential Pressure (bar)
-   -1.49582e+04    1.62193e+03
+   -1.49582e+04    1.62191e+03
 
            Step           Time
              57       57.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.20596e+02    7.45219e+02    2.15801e+03    5.87886e+01    4.56209e+02
+    2.20599e+02    7.45218e+02    2.15801e+03    5.87882e+01    4.56209e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.05223e+03    2.55423e+04   -3.95768e+03   -4.51899e+04    2.92224e+03
       Potential Pressure (bar)
-   -1.49919e+04    1.60856e+03
+   -1.49919e+04    1.60858e+03
 
            Step           Time
              58       58.00000
@@ -917,33 +917,33 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.13761e+02    7.49362e+02    2.15764e+03    5.89029e+01    4.56001e+02
+    2.13760e+02    7.49360e+02    2.15764e+03    5.89023e+01    4.56002e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.05013e+03    2.55400e+04   -3.95860e+03   -4.51910e+04    2.91936e+03
+    2.05014e+03    2.55400e+04   -3.95859e+03   -4.51910e+04    2.91936e+03
       Potential Pressure (bar)
-   -1.50044e+04    1.59380e+03
+   -1.50044e+04    1.59382e+03
 
            Step           Time
              60       60.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.31047e+02    7.49355e+02    2.15719e+03    5.90578e+01    4.55673e+02
+    2.31045e+02    7.49355e+02    2.15719e+03    5.90574e+01    4.55673e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.04566e+03    2.55354e+04   -3.96415e+03   -4.51924e+04    2.91598e+03
+    2.04566e+03    2.55355e+04   -3.96415e+03   -4.51924e+04    2.91598e+03
       Potential Pressure (bar)
-   -1.50072e+04    1.56261e+03
+   -1.50071e+04    1.56262e+03
 
            Step           Time
              61       61.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.18610e+02    7.54330e+02    2.15680e+03    5.91698e+01    4.55475e+02
+    2.18610e+02    7.54328e+02    2.15680e+03    5.91695e+01    4.55475e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.04386e+03    2.55334e+04   -3.96424e+03   -4.51935e+04    2.91300e+03
+    2.04387e+03    2.55334e+04   -3.96424e+03   -4.51936e+04    2.91300e+03
       Potential Pressure (bar)
-   -1.50231e+04    1.54935e+03
+   -1.50231e+04    1.54936e+03
 
            Step           Time
              62       62.00000
@@ -953,20 +953,20 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.15656e+02    7.52341e+02    2.15659e+03    5.92389e+01    4.55318e+02
+    2.15659e+02    7.52339e+02    2.15659e+03    5.92392e+01    4.55318e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.04158e+03    2.55311e+04   -3.96741e+03   -4.51942e+04    2.91142e+03
+    2.04159e+03    2.55311e+04   -3.96741e+03   -4.51942e+04    2.91142e+03
       Potential Pressure (bar)
-   -1.50383e+04    1.53630e+03
+   -1.50383e+04    1.53632e+03
 
            Step           Time
              64       64.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.22957e+02    7.59254e+02    2.15590e+03    5.94494e+01    4.54917e+02
+    2.22951e+02    7.59255e+02    2.15590e+03    5.94498e+01    4.54918e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.03715e+03    2.55263e+04   -3.97029e+03   -4.51964e+04    2.90606e+03
+    2.03715e+03    2.55263e+04   -3.97029e+03   -4.51963e+04    2.90605e+03
       Potential Pressure (bar)
    -1.50447e+04    1.50175e+03
 
@@ -975,7 +975,7 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.23310e+02    7.56632e+02    2.15566e+03    5.95271e+01    4.54738e+02
+    2.23308e+02    7.56631e+02    2.15566e+03    5.95270e+01    4.54738e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.03441e+03    2.55236e+04   -3.97423e+03   -4.51971e+04    2.90430e+03
       Potential Pressure (bar)
@@ -989,33 +989,33 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.14388e+02    7.59183e+02    2.15539e+03    5.96034e+01    4.54599e+02
+    2.14387e+02    7.59182e+02    2.15539e+03    5.96031e+01    4.54600e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.03301e+03    2.55219e+04   -3.97473e+03   -4.51980e+04    2.90219e+03
+    2.03302e+03    2.55219e+04   -3.97472e+03   -4.51980e+04    2.90219e+03
       Potential Pressure (bar)
-   -1.50725e+04    1.47586e+03
+   -1.50725e+04    1.47587e+03
 
            Step           Time
              68       68.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.32609e+02    7.61827e+02    2.15460e+03    5.98444e+01    4.54102e+02
+    2.32609e+02    7.61825e+02    2.15460e+03    5.98444e+01    4.54103e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.02647e+03    2.55149e+04   -3.98156e+03   -4.52005e+04    2.89613e+03
+    2.02647e+03    2.55149e+04   -3.98156e+03   -4.52006e+04    2.89613e+03
       Potential Pressure (bar)
-   -1.50816e+04    1.42880e+03
+   -1.50816e+04    1.42882e+03
 
            Step           Time
              69       69.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.16672e+02    7.64694e+02    2.15432e+03    5.99217e+01    4.53970e+02
+    2.16670e+02    7.64695e+02    2.15432e+03    5.99215e+01    4.53971e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.02525e+03    2.55135e+04   -3.98155e+03   -4.52015e+04    2.89385e+03
       Potential Pressure (bar)
-   -1.51009e+04    1.42069e+03
+   -1.51009e+04    1.42070e+03
 
            Step           Time
              70       70.00000
@@ -1025,44 +1025,44 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.21250e+02    7.64744e+02    2.15397e+03    6.00196e+01    4.53760e+02
+    2.21251e+02    7.64742e+02    2.15397e+03    6.00198e+01    4.53761e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.02232e+03    2.55103e+04   -3.98487e+03   -4.52026e+04    2.89128e+03
       Potential Pressure (bar)
-   -1.51099e+04    1.40115e+03
+   -1.51099e+04    1.40118e+03
 
            Step           Time
              72       72.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.18626e+02    7.68297e+02    2.15360e+03    6.01195e+01    4.53578e+02
+    2.18624e+02    7.68295e+02    2.15360e+03    6.01197e+01    4.53579e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.02033e+03    2.55080e+04   -3.98582e+03   -4.52039e+04    2.88841e+03
+    2.02033e+03    2.55080e+04   -3.98581e+03   -4.52039e+04    2.88841e+03
       Potential Pressure (bar)
-   -1.51188e+04    1.38578e+03
+   -1.51188e+04    1.38579e+03
 
            Step           Time
              73       73.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.27816e+02    7.68114e+02    2.15324e+03    6.02222e+01    4.53353e+02
+    2.27817e+02    7.68111e+02    2.15324e+03    6.02221e+01    4.53353e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.01707e+03    2.55045e+04   -3.98967e+03   -4.52051e+04    2.88567e+03
       Potential Pressure (bar)
-   -1.51248e+04    1.36350e+03
+   -1.51249e+04    1.36350e+03
 
            Step           Time
              74       74.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.21993e+02    7.72239e+02    2.15288e+03    6.03172e+01    4.53190e+02
+    2.21992e+02    7.72237e+02    2.15288e+03    6.03171e+01    4.53191e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.01543e+03    2.55025e+04   -3.98995e+03   -4.52064e+04    2.88284e+03
+    2.01544e+03    2.55025e+04   -3.98994e+03   -4.52064e+04    2.88284e+03
       Potential Pressure (bar)
-   -1.51350e+04    1.35043e+03
+   -1.51350e+04    1.35045e+03
 
            Step           Time
              75       75.00000
@@ -1072,51 +1072,51 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.19473e+02    7.70892e+02    2.15270e+03    6.03655e+01    4.53078e+02
+    2.19474e+02    7.70890e+02    2.15270e+03    6.03657e+01    4.53078e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.01369e+03    2.55005e+04   -3.99221e+03   -4.52069e+04    2.88149e+03
       Potential Pressure (bar)
-   -1.51469e+04    1.34038e+03
+   -1.51469e+04    1.34039e+03
 
            Step           Time
              77       77.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.24903e+02    7.76755e+02    2.15197e+03    6.05616e+01    4.52714e+02
+    2.24898e+02    7.76755e+02    2.15197e+03    6.05614e+01    4.52714e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.00927e+03    2.54954e+04   -3.99517e+03   -4.52096e+04    2.87576e+03
+    2.00928e+03    2.54954e+04   -3.99517e+03   -4.52096e+04    2.87577e+03
       Potential Pressure (bar)
-   -1.51574e+04    1.30620e+03
+   -1.51574e+04    1.30622e+03
 
            Step           Time
              78       78.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.24850e+02    7.75038e+02    2.15175e+03    6.06176e+01    4.52580e+02
+    2.24850e+02    7.75037e+02    2.15175e+03    6.06169e+01    4.52581e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.00711e+03    2.54931e+04   -3.99804e+03   -4.52103e+04    2.87418e+03
+    2.00711e+03    2.54931e+04   -3.99804e+03   -4.52103e+04    2.87417e+03
       Potential Pressure (bar)
-   -1.51691e+04    1.29326e+03
+   -1.51691e+04    1.29325e+03
 
            Step           Time
              79       79.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.29890e+02    7.80725e+02    2.15126e+03    6.07445e+01    4.52363e+02
+    2.29884e+02    7.80724e+02    2.15127e+03    6.07442e+01    4.52363e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.00469e+03    2.54901e+04   -3.99891e+03   -4.52121e+04    2.87029e+03
       Potential Pressure (bar)
-   -1.51710e+04    1.27258e+03
+   -1.51710e+04    1.27260e+03
 
            Step           Time
              80       80.00000
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.34347e+02    7.78393e+02    2.15103e+03    6.08017e+01    4.52216e+02
+    2.34350e+02    7.78393e+02    2.15104e+03    6.08015e+01    4.52216e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
     2.00215e+03    2.54874e+04   -4.00246e+03   -4.52128e+04    2.86864e+03
       Potential Pressure (bar)
@@ -1130,16 +1130,16 @@ Steepest Descents:
 
    Energies (kJ/mol)
            Bond          Angle    Proper Dih.Periodic Improper Dih.      CMAP Dih.
-    2.20662e+02    7.80261e+02    2.15081e+03    6.08579e+01    4.52128e+02
+    2.20661e+02    7.80260e+02    2.15081e+03    6.08578e+01    4.52127e+02
           LJ-14     Coulomb-14        LJ (SR)   Coulomb (SR)   Coul. recip.
-    2.00129e+03    2.54862e+04   -4.00244e+03   -4.52137e+04    2.86680e+03
+    2.00129e+03    2.54863e+04   -4.00244e+03   -4.52137e+04    2.86680e+03
       Potential Pressure (bar)
-   -1.51971e+04    1.25169e+03
+   -1.51971e+04    1.25170e+03
 
 
 Steepest Descents converged to Fmax < 1000 in 83 steps
-Potential Energy  = -1.5197057e+04
-Maximum force     =  8.5906390e+02 on atom 816
-Norm of force     =  6.0044317e+01
-Finished mdrun on rank 0 Wed Feb 15 09:13:10 2023
+Potential Energy  = -1.5197055e+04
+Maximum force     =  8.5903455e+02 on atom 816
+Norm of force     =  6.0043723e+01
+Finished mdrun on rank 0 Wed Feb 15 12:58:26 2023
 

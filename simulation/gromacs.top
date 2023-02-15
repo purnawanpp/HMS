@@ -1,8 +1,8 @@
 ;
 ;   File gromacs.top  was generated
 ;   By user: root (0)
-;   On host:9558224d013c 
-;   At date:Wed. February  3 02:08:12 2023 
+;   On host:1db06d36ca2a 
+;   At date:Wed. February  3 05:57:14 2023 
 ;
 ;   This is a standalone topology file
 ;
@@ -11,7 +11,7 @@
 ;   Executable:   ipykernel_launcher.py
 ;   Library dir:  /usr/local/gromacs/share/gromacs/top
 ;   Command line:
-;     /usr/local/lib/python3.8/dist-packages/ipykernel_launcher.py -f /root/.local/share/jupyter/runtime/kernel-fb21b8bb-6e8f-448d-9dcc-bed2487ac362.json
+;     /usr/local/lib/python3.8/dist-packages/ipykernel_launcher.py -f /root/.local/share/jupyter/runtime/kernel-0572b231-1359-49d1-ae11-f3719655884b.json
 ;
 
 [ defaults ]
