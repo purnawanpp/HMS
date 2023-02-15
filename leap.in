@@ -31,19 +31,6 @@ savepdb gascomplex 2nnq.gas.complex.pdb
 saveamberparm gascomplex gas.complex.prmtop gas.complex.incprd
 saveamberparm rec gas.receptor.prmtop gas.receptor.incprd
 saveamberparm lig gas.ligand.prmtop gas.ligand.incprd
-saveamberparm complex solvated.prmtop solvated.inpcrd
-
-###Create solvated complex (albeit redundant)                                   
-solvcomplex= combine {rec lig}
-
-###Solvate the system                                                           
-solvateoct solvcomplex OPCBOX 10.0
-
-###Neutralize system (it will add either Na or Cl depending on net charge)      
-addions solvcomplex Cl- 0
-addions solvcomplex Na+ 0
-
-###Write solvated pdb file
 
 ###Create solvated complex (albeit redundant)                                   
 solvcomplex= combine {rec lig}
@@ -55,4 +42,12 @@ solvateoct solvcomplex OPCBOX 12.0
 addions solvcomplex Cl- 0
 addions solvcomplex Na+ 0
 
-###Write solvated pdb file  
+###Write solvated pdb file
+savepdb solvcomplex wet.complex.pdb
+
+###check the system
+charge solvcomplex
+check solvcomplex
+
+###Write solvated topology and coordinate file
+saveamberparm complex solvated.prmtop solvated.inpcrd
