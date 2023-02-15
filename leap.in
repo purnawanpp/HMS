@@ -51,3 +51,4 @@ check solvcomplex
 
 ###Write solvated topology and coordinate file
 saveamberparm complex solvated.prmtop solvated.inpcrd
+quit
