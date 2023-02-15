@@ -9,5 +9,16 @@ This tutorial using AmberTools Version 22 and Gromacs version 2022.2
 *antechamber -i lig.pdb -fi pdb -o lig.am1bcc.mol2 -fo mol2 -at gaff2 -c bcc -rn LIG -nc -1*
 7. Next run the following command: *parmchk2 -i lig.am1bcc.mol2 -f mol2 -o lig.am1bcc.frcmod*
 8. The process of solvation and incorporation of proteins and ligands, Run the following command: *tleap -f leap.in*
-9. Run google colab by clicking the following link: https://colab.research.google.com/github/purnawanpp/Rekap-script/blob/main/HMP.ipynb
-Upload the solvated.prmtop solvated.inpcrd file on Google Colab like this
+9. Run google colab by clicking the following link: https://github.com/purnawanpp/HMS/blob/main/HMP.ipynb
+Upload file namely solvated.prmtop and solvated.inpcrd on Google Colab.
+10. Run google colab and dont forget to download file namely gromacs.gro dan gromacs.top. Move the two downloaded files to your work folder
+11. Running this command to simulation your protein and ligand using Gromacs with command:
+12. gmx grompp -f min.mdp -c gromacs.gro -p gromacs.top -o em.tpr -maxwarn 1
+13. gmx mdrun -v -deffnm em
+14. gmx grompp -f nvt.mdp -c em.gro -r em.gro -p gromacs.top -o nvt.tpr -maxwarn 2
+15. gmx mdrun -v -deffnm nvt &
+16. gmx grompp -f npt.mdp -c nvt.gro -t nvt.cpt -r nvt.gro -p gromacs.top -o npt.tpr -maxwarn 2
+17. gmx mdrun -v -s npt.tpr -deffnm npt &
+18. export GMX_MAXCONSTRWARN=-1
+19. gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p gromacs.top -o md.tpr -maxwarn 1
+20. gmx mdrun -v -s md.tpr -deffnm md &
