@@ -1,5 +1,5 @@
 # Hydrogen Mass Repartitioning (HMS)
-This tutorial using AmberTools Version 22 and Gromacs version 2022.2
+This tutorial using AmberTools Version 22 and GROMACS version 2022.2
 1. Seperate receptor:*grep ATOM 2nnq.pdb > rec.pdb*
 2. Seperate Ligand: *grep T4B 2nnq.pdb > lig.pdb*
 3. Open Protein in the chimera, Tools > Structure Editing > Dock Prep, uncheck write Mol2 file > Ok > Ok > On Assign Charges for dock prep click AM1-BCC and standard residues > File > Save PDB > overwrite the rec.pdb file
@@ -12,7 +12,7 @@ This tutorial using AmberTools Version 22 and Gromacs version 2022.2
 9. Run google colab by clicking the following link: https://github.com/purnawanpp/HMS/blob/main/HMP.ipynb
 Upload file namely solvated.prmtop and solvated.inpcrd on Google Colab.
 10. Run google colab and dont forget to download file namely gromacs.gro dan gromacs.top. Move the two downloaded files to your work folder
-11. Running this command to simulation your protein and ligand using Gromacs with command:
+11. Running this command to simulation your protein and ligand using GROMACS
 12. *gmx grompp -f min.mdp -c gromacs.gro -p gromacs.top -o em.tpr -maxwarn 1*
 13. *gmx mdrun -v -deffnm em*
 14. *gmx grompp -f nvt.mdp -c em.gro -r em.gro -p gromacs.top -o nvt.tpr -maxwarn 2*
