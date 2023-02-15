@@ -4,9 +4,9 @@
 source leaprc.protein.ff19SB
 ###Load GAFF force field (for our ligand)                                       
 source leaprc.gaff
-###Load TIP3P (water) force field                                               
+###Load OPC (water) force field                                               
 source leaprc.water.opc 
-####Load Ions frcmod for the tip3p model                                        
+####Load Ions frcmod for the OPC model                                        
 loadamberparams frcmod.ionslm_126_opc
 ###Needed so we can use igb=8 model                                             
 set default PBradii mbondi3
