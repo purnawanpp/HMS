@@ -1,4 +1,8 @@
 # Hydrogen Mass Repartitioning (HMS)
+Required Software
+1. AmberTools22 https://ambermd.org/GetAmber.php
+2. GROMACS https://manual.gromacs.org/current/download.html
+
 This tutorial using AmberTools Version 22 and GROMACS version 2022.2
 1. Seperate receptor:*grep ATOM 2nnq.pdb > rec.pdb*
 2. Seperate Ligand: *grep T4B 2nnq.pdb > lig.pdb*
