@@ -1,54 +1,22 @@
-#!/usr/bin/sh
-
-###Load Protein force field                                                     
-source leaprc.protein.ff19SB
-###Load GAFF force field (for our ligand)                                       
-source leaprc.gaff
-###Load OPC (water) force field                                               
-source leaprc.water.opc 
-####Load Ions frcmod for the OPC model                                        
+source leaprc.protein.ff19SB                               
+source leaprc.gaff                                              
+source leaprc.water.opc                                    
 loadamberparams frcmod.ionslm_126_opc
-###Needed so we can use igb=8 model                                             
-set default PBradii mbondi3
-
-###Load Protein pdb file                                                        
-rec=loadpdb rec.pdb
-
-###Load Ligand frcmod/mol2                                                      
+set default PBradii mbondi3                  
+rec=loadpdb rec.pdb 
 loadamberparams lig.am1bcc.frcmod
-lig=loadmol2 lig.am1bcc.mol2
-
-###Create gas-phase complex                                                     
-gascomplex= combine {rec lig}
-
-###Create complex
-complex= combine {rec lig}
-
-###Write gas-phase pdb                                                          
-savepdb gascomplex 2nnq.gas.complex.pdb
-
-###Write gas-phase toplogy and coord files for MMGBSA calc                      
-saveamberparm gascomplex gas.complex.prmtop gas.complex.incprd
-saveamberparm rec gas.receptor.prmtop gas.receptor.incprd
-saveamberparm lig gas.ligand.prmtop gas.ligand.incprd
-
-###Create solvated complex (albeit redundant)                                   
-solvcomplex= combine {rec lig}
-
-###Solvate the system                                                           
+lig=loadmol2 lig.am1bcc.mol2                                                 
+gascomplex= combine {rec lig}                                                  
+savepdb gascomplex reclig.gas.complex.pdb                  
+saveamberparm gascomplex gas.complex.parm7 gas.complex.rst7
+saveamberparm rec gas.receptor.parm7 gas.receptor.rst7
+saveamberparm lig gas.ligand.parm7 gas.ligand.rst7                                  
+solvcomplex= combine {rec lig}                                                        
 solvateoct solvcomplex OPCBOX 12.0
-
-###Neutralize system (it will add either Na or Cl depending on net charge)      
 addions solvcomplex Cl- 0
 addions solvcomplex Na+ 0
-
-###Write solvated pdb file
 savepdb solvcomplex wet.complex.pdb
-
-###check the system
 charge solvcomplex
 check solvcomplex
-
-###Write solvated topology and coordinate file
-saveamberparm complex solvated.prmtop solvated.inpcrd
+saveamberparm solvcomplex solvated.parm7 solvated.rst7
 quit
