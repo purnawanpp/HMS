@@ -1,5 +1,6 @@
 # Hydrogen Mass Repartitioning (HMS)
 Introduction
+
 The process of Hydrogen mass repartitioning (HMR) is highly beneficial as it enables simulations to use a larger time step by transferring a portion of the mass from heavy atoms connected to hydrogen to the bonded hydrogens. As a result, simulations can accurately depict longer time frames without encountering instability-related errors that stem from high-frequency hydrogen motion. Some research studies in the field of biology require extensive motions of biomolecules, necessitating longer simulation times. In such cases, Hydrogen mass repartitioning can prove to be a valuable tool. For instance, to carry out a simulation with a 4 fs time step instead of the typical 2 fs time step, one can make use of parmed, as described below, to execute Hydrogen mass repartitioning on an existing parm7 topology file before performing equilibration and MD.
 
 Required Software
