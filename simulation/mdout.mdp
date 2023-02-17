@@ -2,14 +2,14 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: elite (1000)
 ;	On host: localhost
-;	At date: Wed Feb 15 12:59:07 2023
+;	At date: Fri Feb 17 09:39:33 2023
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2022.2 (-:
 ;	
 ;	Executable:   /home/elite/Programs/gromacs/build/bin/gmx
 ;	Data prefix:  /home/elite/Programs/gromacs (source tree)
-;	Working dir:  /home/elite/Documents/latihan/HMS/19-OPC2
+;	Working dir:  /home/elite/Documents/latihan/HMS/19-OPC5
 ;	Command line:
 ;	  gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p gromacs.top -o md.tpr -maxwarn 1
 
@@ -169,7 +169,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen_vel                  = no
 gen-temp                 = 300
-gen-seed                 = -8389143
+gen-seed                 = -269113371
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
