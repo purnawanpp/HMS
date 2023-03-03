@@ -35,3 +35,4 @@ Upload file namely solvated.prmtop and solvated.inpcrd on Google Colab.
 1. https://pubs.acs.org/doi/10.1021/ct5010406
 2. https://ambermd.org/doc12/Amber22.pdf
 3. https://parmed.github.io/ParmEd/html/index.html
+4. https://ambermd.org/tutorials/basic/tutorial12/index.php
